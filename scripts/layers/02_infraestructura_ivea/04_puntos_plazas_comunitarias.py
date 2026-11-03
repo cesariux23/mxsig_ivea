@@ -19,5 +19,9 @@ layer = {
             "outlinecolor": "235,216,52",
             "color": "0,0,0",
         }
-    }
+    },
+    '_tree': {
+        'grupo': 'infraestructura_ivea',
+        'position': 3,
+    },
 }

@@ -91,6 +91,9 @@ for i in range(4):
         },
         "class": style_base | {
             "color": color,
-        }
+        },
+        "_tree": {
+            "grupo": "rezago_educativo_censo",
+        },
     })
 

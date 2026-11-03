@@ -99,6 +99,9 @@ for campo in mapas_tematico:
         "metadata": {
             'wms_title': f"{descripcion} ({campo})"
         },
-        "class": clases
+        "class": clases,
+        "_tree": {
+            "grupo": "rezago_educativo_inea",
+        },
     })
 

@@ -36,5 +36,8 @@ for c in capas_denue:
             "style": {
                 "color": f"{c['color']}",
             }
-        }
+        },
+        "_tree": {
+            "grupo": "denue",
+        },
     })

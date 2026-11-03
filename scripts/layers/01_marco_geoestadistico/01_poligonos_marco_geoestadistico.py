@@ -23,6 +23,11 @@ layers =  [
         'data': {
             'table': 'marco_geoestadistico.entidad_ver'
         },
+        '_tree': {
+            'grupo': 'marco_geoestadistico',
+            'position': 200,
+            'active': True,
+        },
     },
     {
         'name': 'mun_ver',
@@ -37,6 +42,10 @@ layers =  [
             'style': {
                 'outlinecolor': '90,90,90',
             },
-        }
+        },
+        '_tree': {
+            'grupo': 'marco_geoestadistico',
+            'position': 1,
+        },
     },
 ]

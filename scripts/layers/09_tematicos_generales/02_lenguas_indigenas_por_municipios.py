@@ -96,5 +96,8 @@ layer = {
     },
     "labelitem": 'lengua',
     "classitem": 'lengua',
-    'class':classes
+    'class':classes,
+    '_tree': {
+        'grupo': 'otras_capas',
+    },
 }

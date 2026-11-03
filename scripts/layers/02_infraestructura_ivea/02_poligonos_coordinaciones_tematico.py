@@ -58,4 +58,8 @@ layer = {
     },
     "class" : classes,
     "labelitem": 'coord_zon',
+    "_tree": {
+        "grupo": "marco_geoestadistico_ivea",
+        "position": 3,
+    },
 }

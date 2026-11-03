@@ -70,7 +70,10 @@ layers =[
 
     "labelitem": 'grado_marginacion',
     "classitem": 'grado_marginacion',
-    'class':classes
+    'class':classes,
+    "_tree": {
+        "grupo": "pobreza_multidimensional_inegi",
+    },
   },
   { 
       "name": 'grado_rezago_social',
@@ -80,6 +83,9 @@ layers =[
   
       "labelitem": 'grado_rezago_social',
       "classitem": 'grado_rezago_social',
-      'class':classes
+      'class':classes,
+      "_tree": {
+          "grupo": "pobreza_multidimensional_inegi",
+      },
     }
 ]

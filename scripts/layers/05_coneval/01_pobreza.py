@@ -58,11 +58,17 @@ for mapa in pobreza:
     })
 layer = {
     "name":"tematico_pobreza",
+    "metadata": {
+        "wms_title": descripcion,
+    },
     "data": {
         "table": tabla,
         "select":['porcentaje'],
     },
     'classitem': 'porcentaje',
     'labelitem': 'porcentaje',
-    "class":clases
+    "class":clases,
+    "_tree": {
+        "grupo": "pobreza_multidimensional_inegi",
+    },
 }   

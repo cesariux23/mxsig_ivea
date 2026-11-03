@@ -53,5 +53,8 @@ layer = {
     },
     "labelitem": 'region_pvd',
     "classitem": 'region_pvd',
-    'class':classes
+    'class':classes,
+    '_tree': {
+        'grupo': 'otras_capas',
+    },
 }

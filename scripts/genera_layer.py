@@ -144,6 +144,8 @@ procesa_dual = False
 
 for ly in getattr(mapa, "layers", [config_global_final]):
     capa_completa = deep_update(config_global_final, ly)
+    # _tree sólo alimenta el árbol del cliente; no debe llegar a MapServer.
+    capa_completa.pop("_tree", None)
     nombre_original = capa_completa.get("name", "capa")
     titulo_original = capa_completa.get("metadata", {}).get("wms_title", "Capa")
     

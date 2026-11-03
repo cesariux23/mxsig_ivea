@@ -1,4 +1,3 @@
-from random import randrange
 import sys
 import os
 
@@ -58,5 +57,9 @@ layer = {
         "select":["clv_cz"],
     },
     "labelitem": "nom_cz",
-    "class" : classes
+    "class" : classes,
+    "_tree": {
+        "grupo": "infraestructura_ivea",
+        "position": 2,
+    },
 }

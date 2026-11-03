@@ -18,5 +18,8 @@ layer = {
             "color": "114,47,55",
             'opacity':60,
         }
-    }
+    },
+    '_tree': {
+        'grupo': 'otras_capas',
+    },
 }
