@@ -413,7 +413,7 @@
                         "active": false
                     }
                 },
-                "c_denue_escuelas_media_superior": {
+                "c_denue_escuelas_superior": {
                     "label": "Escuelas superior",
                     "scale": 1,
                     "position": 38,
