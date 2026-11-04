@@ -129,7 +129,7 @@ define(function() {
                         }
                     },
                     "c_plazas_comunitarias": {
-                        "label": "Ubicacion de las plazas comunitarias",
+                        "label": "Ubicacion de las Plazas Comunitarias",
                         "scale": 1,
                         "position": 3,
                         "active": false,
@@ -194,55 +194,55 @@ define(function() {
                 "label": "Coordinaciones Regional Norte",
                 "layers": {
                     "c_cz3001": {
-                        "label": "CZ1 - Tantoyuca",
+                        "label": "CZ3001 - Tantoyuca",
                         "scale": 1,
                         "position": 7,
                         "active": false
                     },
                     "c_cz3003": {
-                        "label": "CZ3 - Chicontepec",
+                        "label": "CZ3003 - Chicontepec",
                         "scale": 1,
                         "position": 8,
                         "active": false
                     },
                     "c_cz3004": {
-                        "label": "CZ4 - Tuxpan",
+                        "label": "CZ3004 - Tuxpan",
                         "scale": 1,
                         "position": 9,
                         "active": false
                     },
                     "c_cz3005": {
-                        "label": "CZ5 - Poza Rica",
+                        "label": "CZ3005 - Poza Rica",
                         "scale": 1,
                         "position": 10,
                         "active": false
                     },
                     "c_cz3006": {
-                        "label": "CZ6 - Papantla",
+                        "label": "CZ3006 - Papantla",
                         "scale": 1,
                         "position": 11,
                         "active": false
                     },
                     "c_cz3007": {
-                        "label": "CZ7 - Espinal",
+                        "label": "CZ3007 - Espinal",
                         "scale": 1,
                         "position": 12,
                         "active": false
                     },
                     "c_cz3008": {
-                        "label": "CZ8 - Martinez",
+                        "label": "CZ3008 - Martinez",
                         "scale": 1,
                         "position": 13,
                         "active": false
                     },
                     "c_cz3024": {
-                        "label": "CZ24 - Huayacocotla",
+                        "label": "CZ3024 - Huayacocotla",
                         "scale": 1,
                         "position": 14,
                         "active": false
                     },
                     "c_cz3025": {
-                        "label": "CZ25 - Panuco",
+                        "label": "CZ3025 - Panuco",
                         "scale": 1,
                         "position": 15,
                         "active": false
@@ -253,49 +253,49 @@ define(function() {
                 "label": "Coordinaciones Regional Centro",
                 "layers": {
                     "c_cz3009": {
-                        "label": "CZ9 - Perote",
+                        "label": "CZ3009 - Perote",
                         "scale": 1,
                         "position": 16,
                         "active": false
                     },
                     "c_cz3010": {
-                        "label": "CZ10 - Xalapa",
+                        "label": "CZ3010 - Xalapa",
                         "scale": 1,
                         "position": 17,
                         "active": false
                     },
                     "c_cz3011": {
-                        "label": "CZ11 - Coatepec",
+                        "label": "CZ3011 - Coatepec",
                         "scale": 1,
                         "position": 18,
                         "active": false
                     },
                     "c_cz3012": {
-                        "label": "CZ12 - Huatusco",
+                        "label": "CZ3012 - Huatusco",
                         "scale": 1,
                         "position": 19,
                         "active": false
                     },
                     "c_cz3013": {
-                        "label": "CZ13 - Orizaba",
+                        "label": "CZ3013 - Orizaba",
                         "scale": 1,
                         "position": 20,
                         "active": false
                     },
                     "c_cz3014": {
-                        "label": "CZ14 - Cordoba",
+                        "label": "CZ3014 - Cordoba",
                         "scale": 1,
                         "position": 21,
                         "active": false
                     },
                     "c_cz3015": {
-                        "label": "CZ15 - Zongolica",
+                        "label": "CZ3015 - Zongolica",
                         "scale": 1,
                         "position": 22,
                         "active": false
                     },
                     "c_cz3016": {
-                        "label": "CZ16 - Veracruz",
+                        "label": "CZ3016 - Veracruz",
                         "scale": 1,
                         "position": 23,
                         "active": false
@@ -306,49 +306,49 @@ define(function() {
                 "label": "Coordinaciones Regional Sur",
                 "layers": {
                     "c_cz3017": {
-                        "label": "CZ17 - Boca del Rio",
+                        "label": "CZ3017 - Boca del Rio",
                         "scale": 1,
                         "position": 24,
                         "active": false
                     },
                     "c_cz3018": {
-                        "label": "CZ18 - Tierra Blanca",
+                        "label": "CZ3018 - Tierra Blanca",
                         "scale": 1,
                         "position": 25,
                         "active": false
                     },
                     "c_cz3019": {
-                        "label": "CZ19 - Cosamaloapan",
+                        "label": "CZ3019 - Cosamaloapan",
                         "scale": 1,
                         "position": 26,
                         "active": false
                     },
                     "c_cz3020": {
-                        "label": "CZ20 - San Andres",
+                        "label": "CZ3020 - San Andres",
                         "scale": 1,
                         "position": 27,
                         "active": false
                     },
                     "c_cz3021": {
-                        "label": "CZ21 - Acayucan",
+                        "label": "CZ3021 - Acayucan",
                         "scale": 1,
                         "position": 28,
                         "active": false
                     },
                     "c_cz3022": {
-                        "label": "CZ22 - Minatitlan",
+                        "label": "CZ3022 - Minatitlan",
                         "scale": 1,
                         "position": 29,
                         "active": false
                     },
                     "c_cz3023": {
-                        "label": "CZ23 - Coatzacoalcos",
+                        "label": "CZ3023 - Coatzacoalcos",
                         "scale": 1,
                         "position": 30,
                         "active": false
                     },
                     "c_cz3029": {
-                        "label": "CZ29 - Jaltipan",
+                        "label": "CZ3029 - Jaltipan",
                         "scale": 1,
                         "position": 31,
                         "active": false
@@ -369,7 +369,7 @@ define(function() {
                         }
                     },
                     "c_rezago_educativo_porcentaje_sin_primaria": {
-                        "label": "Porcentaje de alalfabetizmo",
+                        "label": "Porcentaje de analfabetismo",
                         "scale": 1,
                         "position": 33,
                         "active": false,
@@ -379,7 +379,7 @@ define(function() {
                         }
                     },
                     "c_rezago_educativo_porcentaje_sin_secundaria": {
-                        "label": "Porcentaje de alalfabetizmo",
+                        "label": "Porcentaje sin primaria",
                         "scale": 1,
                         "position": 34,
                         "active": false,
@@ -389,7 +389,7 @@ define(function() {
                         }
                     },
                     "c_rezago_educativo_porcentaje_rezago_total": {
-                        "label": "Porcentaje de alalfabetizmo",
+                        "label": "Porcentaje sin secundaria",
                         "scale": 1,
                         "position": 35,
                         "active": false,
@@ -445,7 +445,7 @@ define(function() {
                         "active": false
                     },
                     "c_lengua_indigena_mun": {
-                        "label": "Lenguas indígenas por municipio (tematico)",
+                        "label": "Lenguas indígenas por municipio (temático)",
                         "scale": 1,
                         "position": 40,
                         "active": false,

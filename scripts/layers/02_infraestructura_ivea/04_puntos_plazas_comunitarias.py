@@ -1,4 +1,4 @@
-descripcion = "Ubicacion de las plazas comunitarias"
+descripcion = "Ubicacion de las Plazas Comunitarias"
 output = "plazas_comunitarias"
 
 # CONFIGURACIONES GLOBALES

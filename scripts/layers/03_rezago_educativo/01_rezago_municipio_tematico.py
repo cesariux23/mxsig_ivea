@@ -57,7 +57,7 @@ mapas_tematico = [
 
 wms_titles = [
     "total del Rezago en Veracruz",
-    "de alalfabetizmo",
+    "de analfabetismo",
     "sin primaria",
     "sin secundaria",
 ]
@@ -112,5 +112,5 @@ for campo in mapas_tematico:
             "grupo": "rezago_educativo_inea",
         },
     })
-    t=+1
+    t=t+1
 

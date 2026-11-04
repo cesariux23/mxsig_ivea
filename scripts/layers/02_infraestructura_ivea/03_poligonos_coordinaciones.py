@@ -36,7 +36,7 @@ for cz in coordinaciones:
         {
             "name": f"{cz['id_capa']}",
             "metadata": {
-                'wms_title': f"CZ{cz['id_cz']} - {cz['nombre']}",
+                'wms_title': f"CZ30{cz['id_cz'].zfill(2)} - {cz['nombre']}",
             },
             "data":{
                 "where": f"clv_zona = {cz['id_cz']}",
