@@ -424,7 +424,7 @@ define(function() {
                         }
                     },
                     "c_denue_escuelas_media_superior": {
-                        "label": "Escuelas media superior",
+                        "label": "Escuelas superior",
                         "scale": 1,
                         "position": 38,
                         "active": false,

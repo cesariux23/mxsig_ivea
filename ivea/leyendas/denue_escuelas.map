@@ -12,7 +12,7 @@ LAYER
   CONNECTION "host=mxsig-db port=5432 dbname=mdm6data user=postgres password=P0stgr3s"
   DATA "the_geom FROM (SELECT gid, the_geom, nombre_ue FROM denue.escuelas_primarias) AS t1 USING UNIQUE gid USING SRID=900913"
   METADATA
-    "wms_title" "Texto Escuelas primarias (DENUE 2026)"
+    "wms_title" "Texto Escuelas primarias"
     "wms_enable_request" "*"
   END
   LABELITEM "nombre_ue"
@@ -22,8 +22,13 @@ LAYER
       SIZE 8
       COLOR 0 0 0
       OUTLINECOLOR 255 255 255
-      POSITION auto
+      PRIORITY 1
+      BUFFER 1
+      POSITION uc
       TYPE truetype
+      WRAP " "
+      MAXLENGTH 10
+      ALIGN center
     END
   END
 END
@@ -36,7 +41,7 @@ LAYER
   CONNECTION "host=mxsig-db port=5432 dbname=mdm6data user=postgres password=P0stgr3s"
   DATA "the_geom FROM (SELECT gid, the_geom, nombre_ue FROM denue.escuelas_secundarias) AS t1 USING UNIQUE gid USING SRID=900913"
   METADATA
-    "wms_title" "Texto Escuelas secundarias (DENUE 2026)"
+    "wms_title" "Texto Escuelas secundarias"
     "wms_enable_request" "*"
   END
   LABELITEM "nombre_ue"
@@ -46,8 +51,13 @@ LAYER
       SIZE 8
       COLOR 0 0 0
       OUTLINECOLOR 255 255 255
-      POSITION auto
+      PRIORITY 1
+      BUFFER 1
+      POSITION uc
       TYPE truetype
+      WRAP " "
+      MAXLENGTH 10
+      ALIGN center
     END
   END
 END
@@ -58,9 +68,9 @@ LAYER
   TYPE POINT
   CONNECTIONTYPE POSTGIS
   CONNECTION "host=mxsig-db port=5432 dbname=mdm6data user=postgres password=P0stgr3s"
-  DATA "the_geom FROM (SELECT gid, the_geom, nombre_ue FROM denue.escuelas_media_superior) AS t1 USING UNIQUE gid USING SRID=900913"
+  DATA "the_geom FROM (SELECT gid, the_geom, nombre_ue FROM denue.escuelas_superior_mecator) AS t1 USING UNIQUE gid USING SRID=900913"
   METADATA
-    "wms_title" "Texto Escuelas media superior (DENUE 2026)"
+    "wms_title" "Texto Escuelas superior"
     "wms_enable_request" "*"
   END
   LABELITEM "nombre_ue"
@@ -70,8 +80,13 @@ LAYER
       SIZE 8
       COLOR 0 0 0
       OUTLINECOLOR 255 255 255
-      POSITION auto
+      PRIORITY 1
+      BUFFER 1
+      POSITION uc
       TYPE truetype
+      WRAP " "
+      MAXLENGTH 10
+      ALIGN center
     END
   END
 END
