@@ -18,7 +18,7 @@ layers =  [
     {
         'name': 'edo_ver',
         'metadata': {
-            'wms_title': 'Contorno del Estado de Veracruz',
+            'wms_title': 'Estatal',
         },
         'data': {
             'table': 'marco_geoestadistico.entidad_ver'
@@ -32,7 +32,7 @@ layers =  [
     {
         'name': 'mun_ver',
         'metadata': {
-            'wms_title': 'Municipios del Estado de Veracruz',
+            'wms_title': 'Municipal',
         },
         'data': {
             'table': 'marco_geoestadistico.mun_ver',

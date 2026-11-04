@@ -59,7 +59,7 @@ for mapa in pobreza:
 layer = {
     "name":"tematico_pobreza",
     "metadata": {
-        "wms_title": descripcion,
+        "wms_title": 'Pobreza',
     },
     "data": {
         "table": tabla,

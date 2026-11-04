@@ -50,7 +50,7 @@ layer = {
     "name": "coordinaciones_zona_tematico",
     "type": "POLYGON",
     "metadata": {
-         'wms_title': descripcion,
+         'wms_title': 'Coordinaciones de Zona (temático)',
     },
     "data" : {
         "table": "ivea.cz_disuelto",

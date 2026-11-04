@@ -65,7 +65,7 @@ layers =[
   {
     "name": 'grado_marginacion',
     'metadata': {
-          'wms_title': 'Grado de marginacion por municipio',
+          'wms_title': 'Marginación',
       },
 
     "labelitem": 'grado_marginacion',
@@ -78,7 +78,7 @@ layers =[
   { 
       "name": 'grado_rezago_social',
       'metadata': {
-            'wms_title': 'rezago social por municipio',
+            'wms_title': 'Rezago Social',
         },
   
       "labelitem": 'grado_rezago_social',

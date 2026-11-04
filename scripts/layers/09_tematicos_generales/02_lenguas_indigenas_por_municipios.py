@@ -1,4 +1,4 @@
-descripcion = "Lenguas indigenas por municipio (tematico)"
+descripcion = "Lenguas indígenas por municipio (tematico)"
 output = "lengua_indigena_mun"
 
 # CONFIGURACIONES GLOBALES

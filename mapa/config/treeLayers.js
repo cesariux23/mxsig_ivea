@@ -98,13 +98,13 @@ define(function() {
                 "label": "L&iacute;mites del Marco Geoestad&iacute;stico de Veracruz 2025",
                 "layers": {
                     "c_edo_ver": {
-                        "label": "Contorno del Estado de Veracruz",
+                        "label": "Estatal",
                         "scale": 1,
                         "position": 200,
                         "active": true
                     },
                     "c_mun_ver": {
-                        "label": "Municipios del Estado de Veracruz",
+                        "label": "Municipal",
                         "scale": 1,
                         "position": 1,
                         "active": false,
@@ -119,7 +119,7 @@ define(function() {
                 "label": "Infraestructura IVEA",
                 "layers": {
                     "c_oficinas_cz": {
-                        "label": "Puntos en donde se ubican las coordinaciones de zona del IVEA",
+                        "label": "Ubicación de las Coordinaciones de Zona",
                         "scale": 1,
                         "position": 2,
                         "active": false,
@@ -144,7 +144,7 @@ define(function() {
                 "label": "Marco Geoestadístico IVEA",
                 "layers": {
                     "c_coordinaciones_zona_tematico": {
-                        "label": "Mapa tematico con los municipios que abarcan las coordinaciones de zona del IVEA",
+                        "label": "Coordinaciones de Zona (temático)",
                         "scale": 1,
                         "position": 3,
                         "active": false,
@@ -159,7 +159,7 @@ define(function() {
                 "label": "Pobreza multidimensional INEGI",
                 "layers": {
                     "c_tematico_pobreza": {
-                        "label": "Mapa tematico de pobreza",
+                        "label": "Pobreza",
                         "scale": 1,
                         "position": 4,
                         "active": false,
@@ -169,7 +169,7 @@ define(function() {
                         }
                     },
                     "c_grado_marginacion": {
-                        "label": "Grado de marginacion por municipio",
+                        "label": "Marginación",
                         "scale": 1,
                         "position": 5,
                         "active": false,
@@ -179,7 +179,7 @@ define(function() {
                         }
                     },
                     "c_grado_rezago_social": {
-                        "label": "rezago social por municipio",
+                        "label": "Rezago Social",
                         "scale": 1,
                         "position": 6,
                         "active": false,
@@ -194,55 +194,55 @@ define(function() {
                 "label": "Coordinaciones Regional Norte",
                 "layers": {
                     "c_cz3001": {
-                        "label": "Coordinación de Zona Tantoyuca",
+                        "label": "CZ1 - Tantoyuca",
                         "scale": 1,
                         "position": 7,
                         "active": false
                     },
                     "c_cz3003": {
-                        "label": "Coordinación de Zona Chicontepec",
+                        "label": "CZ3 - Chicontepec",
                         "scale": 1,
                         "position": 8,
                         "active": false
                     },
                     "c_cz3004": {
-                        "label": "Coordinación de Zona Tuxpan",
+                        "label": "CZ4 - Tuxpan",
                         "scale": 1,
                         "position": 9,
                         "active": false
                     },
                     "c_cz3005": {
-                        "label": "Coordinación de Zona Poza Rica",
+                        "label": "CZ5 - Poza Rica",
                         "scale": 1,
                         "position": 10,
                         "active": false
                     },
                     "c_cz3006": {
-                        "label": "Coordinación de Zona Papantla",
+                        "label": "CZ6 - Papantla",
                         "scale": 1,
                         "position": 11,
                         "active": false
                     },
                     "c_cz3007": {
-                        "label": "Coordinación de Zona Espinal",
+                        "label": "CZ7 - Espinal",
                         "scale": 1,
                         "position": 12,
                         "active": false
                     },
                     "c_cz3008": {
-                        "label": "Coordinación de Zona Martinez",
+                        "label": "CZ8 - Martinez",
                         "scale": 1,
                         "position": 13,
                         "active": false
                     },
                     "c_cz3024": {
-                        "label": "Coordinación de Zona Huayacocotla",
+                        "label": "CZ24 - Huayacocotla",
                         "scale": 1,
                         "position": 14,
                         "active": false
                     },
                     "c_cz3025": {
-                        "label": "Coordinación de Zona Panuco",
+                        "label": "CZ25 - Panuco",
                         "scale": 1,
                         "position": 15,
                         "active": false
@@ -253,49 +253,49 @@ define(function() {
                 "label": "Coordinaciones Regional Centro",
                 "layers": {
                     "c_cz3009": {
-                        "label": "Coordinación de Zona Perote",
+                        "label": "CZ9 - Perote",
                         "scale": 1,
                         "position": 16,
                         "active": false
                     },
                     "c_cz3010": {
-                        "label": "Coordinación de Zona Xalapa",
+                        "label": "CZ10 - Xalapa",
                         "scale": 1,
                         "position": 17,
                         "active": false
                     },
                     "c_cz3011": {
-                        "label": "Coordinación de Zona Coatepec",
+                        "label": "CZ11 - Coatepec",
                         "scale": 1,
                         "position": 18,
                         "active": false
                     },
                     "c_cz3012": {
-                        "label": "Coordinación de Zona Huatusco",
+                        "label": "CZ12 - Huatusco",
                         "scale": 1,
                         "position": 19,
                         "active": false
                     },
                     "c_cz3013": {
-                        "label": "Coordinación de Zona Orizaba",
+                        "label": "CZ13 - Orizaba",
                         "scale": 1,
                         "position": 20,
                         "active": false
                     },
                     "c_cz3014": {
-                        "label": "Coordinación de Zona Cordoba",
+                        "label": "CZ14 - Cordoba",
                         "scale": 1,
                         "position": 21,
                         "active": false
                     },
                     "c_cz3015": {
-                        "label": "Coordinación de Zona Zongolica",
+                        "label": "CZ15 - Zongolica",
                         "scale": 1,
                         "position": 22,
                         "active": false
                     },
                     "c_cz3016": {
-                        "label": "Coordinación de Zona Veracruz",
+                        "label": "CZ16 - Veracruz",
                         "scale": 1,
                         "position": 23,
                         "active": false
@@ -306,49 +306,49 @@ define(function() {
                 "label": "Coordinaciones Regional Sur",
                 "layers": {
                     "c_cz3017": {
-                        "label": "Coordinación de Zona Boca del Rio",
+                        "label": "CZ17 - Boca del Rio",
                         "scale": 1,
                         "position": 24,
                         "active": false
                     },
                     "c_cz3018": {
-                        "label": "Coordinación de Zona Tierra Blanca",
+                        "label": "CZ18 - Tierra Blanca",
                         "scale": 1,
                         "position": 25,
                         "active": false
                     },
                     "c_cz3019": {
-                        "label": "Coordinación de Zona Cosamaloapan",
+                        "label": "CZ19 - Cosamaloapan",
                         "scale": 1,
                         "position": 26,
                         "active": false
                     },
                     "c_cz3020": {
-                        "label": "Coordinación de Zona San Andres",
+                        "label": "CZ20 - San Andres",
                         "scale": 1,
                         "position": 27,
                         "active": false
                     },
                     "c_cz3021": {
-                        "label": "Coordinación de Zona Acayucan",
+                        "label": "CZ21 - Acayucan",
                         "scale": 1,
                         "position": 28,
                         "active": false
                     },
                     "c_cz3022": {
-                        "label": "Coordinación de Zona Minatitlan",
+                        "label": "CZ22 - Minatitlan",
                         "scale": 1,
                         "position": 29,
                         "active": false
                     },
                     "c_cz3023": {
-                        "label": "Coordinación de Zona Coatzacoalcos",
+                        "label": "CZ23 - Coatzacoalcos",
                         "scale": 1,
                         "position": 30,
                         "active": false
                     },
                     "c_cz3029": {
-                        "label": "Coordinación de Zona Jaltipan",
+                        "label": "CZ29 - Jaltipan",
                         "scale": 1,
                         "position": 31,
                         "active": false
@@ -359,7 +359,7 @@ define(function() {
                 "label": "Estimación del Rezago Educativo INEA 2025 (temático)",
                 "layers": {
                     "c_rezago_educativo_porcentaje_analfabetismo": {
-                        "label": "Mapa tematico de la estimación del rezago educativo INEA2025 (porcentaje_analfabetismo)",
+                        "label": "Porcentaje sin secundaria",
                         "scale": 1,
                         "position": 32,
                         "active": false,
@@ -369,7 +369,7 @@ define(function() {
                         }
                     },
                     "c_rezago_educativo_porcentaje_sin_primaria": {
-                        "label": "Mapa tematico de la estimación del rezago educativo INEA2025 (porcentaje_sin_primaria)",
+                        "label": "Porcentaje sin secundaria",
                         "scale": 1,
                         "position": 33,
                         "active": false,
@@ -379,7 +379,7 @@ define(function() {
                         }
                     },
                     "c_rezago_educativo_porcentaje_sin_secundaria": {
-                        "label": "Mapa tematico de la estimación del rezago educativo INEA2025 (porcentaje_sin_secundaria)",
+                        "label": "Porcentaje sin secundaria",
                         "scale": 1,
                         "position": 34,
                         "active": false,
@@ -389,7 +389,7 @@ define(function() {
                         }
                     },
                     "c_rezago_educativo_porcentaje_rezago_total": {
-                        "label": "Mapa tematico de la estimación del rezago educativo INEA2025 (porcentaje_rezago_total)",
+                        "label": "Porcentaje sin secundaria",
                         "scale": 1,
                         "position": 35,
                         "active": false,
@@ -404,7 +404,7 @@ define(function() {
                 "label": "DENUE",
                 "layers": {
                     "c_denue_escuelas_primarias": {
-                        "label": "Escuelas primarias (DENUE 2026)",
+                        "label": "Escuelas primarias",
                         "scale": 1,
                         "position": 36,
                         "active": false,
@@ -414,7 +414,7 @@ define(function() {
                         }
                     },
                     "c_denue_escuelas_secundarias": {
-                        "label": "Escuelas secundarias (DENUE 2026)",
+                        "label": "Escuelas secundarias",
                         "scale": 1,
                         "position": 37,
                         "active": false,
@@ -424,7 +424,7 @@ define(function() {
                         }
                     },
                     "c_denue_escuelas_media_superior": {
-                        "label": "Escuelas media superior (DENUE 2026)",
+                        "label": "Escuelas media superior",
                         "scale": 1,
                         "position": 38,
                         "active": false,
@@ -445,7 +445,7 @@ define(function() {
                         "active": false
                     },
                     "c_lengua_indigena_mun": {
-                        "label": "Lenguas indigenas por municipio (tematico)",
+                        "label": "Lenguas indígenas por municipio (tematico)",
                         "scale": 1,
                         "position": 40,
                         "active": false,
@@ -455,7 +455,7 @@ define(function() {
                         }
                     },
                     "c_mun_regiones_pvd": {
-                        "label": "Regiones económicas del PVD (tematico)",
+                        "label": "Regiones económicas del Plan Veracruzano de Desarrollo",
                         "scale": 1,
                         "position": 41,
                         "active": false,
@@ -470,25 +470,25 @@ define(function() {
                 "label": "Rezago Educativo CENSO 2020",
                 "layers": {
                     "c_rez_educxloc2020_ver_analfabeta": {
-                        "label": "Localidades rurales con rezago educativo Censo 2020 (rez_educxloc2020_ver_analfabeta)",
+                        "label": "en Rezago Educativo",
                         "scale": 1,
                         "position": 42,
                         "active": false
                     },
                     "c_rez_educxloc2020_ver_sinprimaria": {
-                        "label": "Localidades rurales con rezago educativo Censo 2020 (rez_educxloc2020_ver_sinprimaria)",
+                        "label": "en condición de analfabetizmo",
                         "scale": 1,
                         "position": 43,
                         "active": false
                     },
                     "c_rez_educxloc2020_ver_sinsecundaria": {
-                        "label": "Localidades rurales con rezago educativo Censo 2020 (rez_educxloc2020_ver_sinsecundaria)",
+                        "label": "sin primaria terminada",
                         "scale": 1,
                         "position": 44,
                         "active": false
                     },
                     "c_rez_educxloc2020_ver_rezago_total": {
-                        "label": "Localidades rurales con rezago educativo Censo 2020 (rez_educxloc2020_ver_rezago_total)",
+                        "label": "sin secundaria terminada",
                         "scale": 1,
                         "position": 45,
                         "active": false

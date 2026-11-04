@@ -1,4 +1,4 @@
-descripcion = "Regiones económicas del PVD (tematico)"
+descripcion = "Regiones económicas del Plan Veracruzano de Desarrollo"
 output = "mun_regiones_pvd"
 
 # CONFIGURACIONES GLOBALES

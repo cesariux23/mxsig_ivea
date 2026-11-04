@@ -27,7 +27,7 @@ for c in capas_denue:
     layers.append({
         'name':f"{c['id_capa']}",
         "metadata": {
-            "wms_title": f"{c['nombre']} (DENUE 2026)",
+            "wms_title": f"{c['nombre']}",
         },
         'data': {
             'table': f"{c['tabla']}"

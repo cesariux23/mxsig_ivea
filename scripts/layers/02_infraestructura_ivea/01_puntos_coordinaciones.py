@@ -50,7 +50,7 @@ layer = {
     "name": "oficinas_cz",
     "type": "POINT",
     "metadata": {
-         'wms_title': 'Puntos en donde se ubican las coordinaciones de zona del IVEA',
+         'wms_title': 'Ubicación de las Coordinaciones de Zona',
     },
     "data" : {
         "table": "ivea.oficinas_cz",

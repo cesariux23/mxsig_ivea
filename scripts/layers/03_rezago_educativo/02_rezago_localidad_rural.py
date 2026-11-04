@@ -29,6 +29,13 @@ campos = [
     'rez_educxloc2020_ver_rezago_total',
 ]
 
+wms_titles = [
+    'en Rezago Educativo',
+    'en condición de analfabetizmo',
+    'sin primaria terminada',
+    'sin secundaria terminada'    
+]
+
 colores = [
     '42,212,48',  #verde
     '194,35,194', #fuscia
@@ -87,7 +94,7 @@ for i in range(4):
         },
         #"labelitem": campo,
         "metadata": {
-            'wms_title': f"{descripcion} ({campo})"
+            'wms_title': f"{wms_titles[i]}"
         },
         "class": style_base | {
             "color": color,

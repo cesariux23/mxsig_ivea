@@ -55,6 +55,13 @@ mapas_tematico = [
     "porcentaje_rezago_total",
 ]
 
+wms_titles = [
+    "total del Rezago en Veracruz",
+    "de alalfabetizmo",
+    "sin primaria",
+    "sin secundaria",
+]
+
 # construccion de las capas
 layers = []
 for campo in mapas_tematico:
@@ -97,7 +104,7 @@ for campo in mapas_tematico:
         },
         "labelitem": campo,
         "metadata": {
-            'wms_title': f"{descripcion} ({campo})"
+            'wms_title': f"Porcentaje {wms_titles[i]}"
         },
         "class": clases,
         "_tree": {
