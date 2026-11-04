@@ -1,0 +1,26 @@
+# =================================================================
+# MAPA BASE DE GEOMETRÍAS
+# ARCHIVO GENERADO AUTOMÁTICAMENTE A PARTIR DE LA DEFINICIÓN: layers.99_test.01_referencia_ver 
+# DESCRIPCIÓN: Referencia del Estado de Veracruz 
+# =================================================================
+
+LAYER
+  NAME "c_test_mun_ver"
+  STATUS ON
+  TYPE POLYGON
+  CONNECTIONTYPE POSTGIS
+  CONNECTION "host=mxsig-db port=5432 dbname=mdm6data user=postgres password=P0stgr3s"
+  DATA "the_geom FROM (SELECT gid, the_geom FROM marco_geoestadistico.mun_ver_reproy) AS t1 USING UNIQUE gid USING SRID=900913"
+  METADATA
+    "wms_title" "Capa de municipios reproyectados"
+    "wms_enable_request" "*"
+  END
+  CLASS
+    STYLE
+      OUTLINECOLOR 255 128 0
+      WIDTH 1
+      COLOR 255 128 0
+      OPACITY 30
+    END
+  END
+END

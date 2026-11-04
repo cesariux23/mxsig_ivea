@@ -48,6 +48,9 @@ GRUPOS = {
     "rezago_educativo_censo": {
         "label": "Rezago Educativo CENSO 2020",
     },
+    "test": {
+        "label": "***Capas de prueba de compatibilidad con MDM***"
+    },
 }
 
 

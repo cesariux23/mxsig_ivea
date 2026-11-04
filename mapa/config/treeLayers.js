@@ -494,6 +494,17 @@ define(function() {
                         "active": false
                     }
                 }
+            },
+            "G12": {
+                "label": "***Capas de prueba de compatibilidad con MDM***",
+                "layers": {
+                    "c_test_mun_ver": {
+                        "label": "Capa de municipios reproyectados",
+                        "scale": 1,
+                        "position": 46,
+                        "active": false
+                    }
+                }
             }
         }
     };
