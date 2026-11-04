@@ -349,7 +349,7 @@
             "label": "Estimación del Rezago Educativo INEA 2025 (temático)",
             "layers": {
                 "c_rezago_educativo_porcentaje_analfabetismo": {
-                    "label": "Porcentaje sin secundaria",
+                    "label": "Porcentaje total del Rezago en Veracruz",
                     "scale": 1,
                     "position": 32,
                     "active": false,
@@ -359,7 +359,7 @@
                     }
                 },
                 "c_rezago_educativo_porcentaje_sin_primaria": {
-                    "label": "Porcentaje sin secundaria",
+                    "label": "Porcentaje de alalfabetizmo",
                     "scale": 1,
                     "position": 33,
                     "active": false,
@@ -369,7 +369,7 @@
                     }
                 },
                 "c_rezago_educativo_porcentaje_sin_secundaria": {
-                    "label": "Porcentaje sin secundaria",
+                    "label": "Porcentaje de alalfabetizmo",
                     "scale": 1,
                     "position": 34,
                     "active": false,
@@ -379,7 +379,7 @@
                     }
                 },
                 "c_rezago_educativo_porcentaje_rezago_total": {
-                    "label": "Porcentaje sin secundaria",
+                    "label": "Porcentaje de alalfabetizmo",
                     "scale": 1,
                     "position": 35,
                     "active": false,
@@ -460,25 +460,25 @@
             "label": "Rezago Educativo CENSO 2020",
             "layers": {
                 "c_rez_educxloc2020_ver_analfabeta": {
-                    "label": "en Rezago Educativo",
+                    "label": "Número de personas en Rezago Educativo por localidad rural",
                     "scale": 1,
                     "position": 42,
                     "active": false
                 },
                 "c_rez_educxloc2020_ver_sinprimaria": {
-                    "label": "en condición de analfabetizmo",
+                    "label": "Número de personas en condición de analfabetizmo por localidad rural",
                     "scale": 1,
                     "position": 43,
                     "active": false
                 },
                 "c_rez_educxloc2020_ver_sinsecundaria": {
-                    "label": "sin primaria terminada",
+                    "label": "Número de personas sin primaria terminada por localidad rural",
                     "scale": 1,
                     "position": 44,
                     "active": false
                 },
                 "c_rez_educxloc2020_ver_rezago_total": {
-                    "label": "sin secundaria terminada",
+                    "label": "Número de personas sin secundaria terminada por localidad rural",
                     "scale": 1,
                     "position": 45,
                     "active": false

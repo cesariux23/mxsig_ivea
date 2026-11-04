@@ -94,7 +94,7 @@ for i in range(4):
         },
         #"labelitem": campo,
         "metadata": {
-            'wms_title': f"{wms_titles[i]}"
+            'wms_title': f"Número de personas {wms_titles[i]} por localidad rural"
         },
         "class": style_base | {
             "color": color,

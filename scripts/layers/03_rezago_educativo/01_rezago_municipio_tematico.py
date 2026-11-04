@@ -64,6 +64,7 @@ wms_titles = [
 
 # construccion de las capas
 layers = []
+t=0
 for campo in mapas_tematico:
     q1, q2, q3 = obtener_cuartiles_desde_postgres(tabla, campo)
     #condicionales de acuerdo a los cuartiles generados a partir de los datos de la DB
@@ -104,11 +105,12 @@ for campo in mapas_tematico:
         },
         "labelitem": campo,
         "metadata": {
-            'wms_title': f"Porcentaje {wms_titles[i]}"
+            'wms_title': f"Porcentaje {wms_titles[t]}"
         },
         "class": clases,
         "_tree": {
             "grupo": "rezago_educativo_inea",
         },
     })
+    t=+1
 
