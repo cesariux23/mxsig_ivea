@@ -47,7 +47,7 @@ LAYER
 END
 
 LAYER
-  NAME "c_denue_escuelas_superior"
+  NAME "c_denue_escuelas_media_superior"
   STATUS ON
   TYPE POINT
   CONNECTIONTYPE POSTGIS

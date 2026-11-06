@@ -423,10 +423,20 @@ define(function() {
                             "active": false
                         }
                     },
-                    "c_denue_escuelas_superior": {
-                        "label": "Escuelas superior",
+                    "c_denue_escuelas_media_superior": {
+                        "label": "Escuelas media superior",
                         "scale": 1,
                         "position": 38,
+                        "active": false,
+                        "texts": {
+                            "scale": 1,
+                            "active": false
+                        }
+                    },
+                    "c_denue_escuelas_superior": {
+                        "label": "Escuelas de nivel superior",
+                        "scale": 1,
+                        "position": 39,
                         "active": false,
                         "texts": {
                             "scale": 1,
@@ -441,13 +451,13 @@ define(function() {
                     "c_municipios_indigenas_pvd": {
                         "label": "Municipios indigenas del Plan Veracruzano de Desarrollo",
                         "scale": 1,
-                        "position": 39,
+                        "position": 40,
                         "active": false
                     },
                     "c_lengua_indigena_mun": {
                         "label": "Lenguas indígenas por municipio (temático)",
                         "scale": 1,
-                        "position": 40,
+                        "position": 41,
                         "active": false,
                         "texts": {
                             "scale": 1,
@@ -457,7 +467,7 @@ define(function() {
                     "c_mun_regiones_pvd": {
                         "label": "Regiones económicas del Plan Veracruzano de Desarrollo",
                         "scale": 1,
-                        "position": 41,
+                        "position": 42,
                         "active": false,
                         "texts": {
                             "scale": 1,
@@ -472,25 +482,25 @@ define(function() {
                     "c_rez_educxloc2020_ver_analfabeta": {
                         "label": "Número de personas en Rezago Educativo por localidad rural",
                         "scale": 1,
-                        "position": 42,
+                        "position": 43,
                         "active": false
                     },
                     "c_rez_educxloc2020_ver_sinprimaria": {
                         "label": "Número de personas en condición de analfabetizmo por localidad rural",
                         "scale": 1,
-                        "position": 43,
+                        "position": 44,
                         "active": false
                     },
                     "c_rez_educxloc2020_ver_sinsecundaria": {
                         "label": "Número de personas sin primaria terminada por localidad rural",
                         "scale": 1,
-                        "position": 44,
+                        "position": 45,
                         "active": false
                     },
                     "c_rez_educxloc2020_ver_rezago_total": {
                         "label": "Número de personas sin secundaria terminada por localidad rural",
                         "scale": 1,
-                        "position": 45,
+                        "position": 46,
                         "active": false
                     }
                 }
@@ -501,7 +511,7 @@ define(function() {
                     "c_test_mun_ver": {
                         "label": "Capa de municipios reproyectados",
                         "scale": 1,
-                        "position": 46,
+                        "position": 47,
                         "active": false
                     }
                 }
