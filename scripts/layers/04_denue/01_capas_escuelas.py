@@ -19,7 +19,8 @@ layer = {
 capas_denue =  [
     {'id_capa': 'denue_escuelas_primarias','tabla':'denue.escuelas_primarias', "nombre": "Escuelas primarias", 'color': '11 123 234'},
     {'id_capa': 'denue_escuelas_secundarias','tabla':'denue.escuelas_secundarias', "nombre": "Escuelas secundarias", 'color': '122 234 10'},
-    {'id_capa': 'denue_escuelas_superior','tabla':'denue.escuelas_superior_pseudomercator', "nombre": "Escuelas superior", 'color': '234 10 122'},
+    {'id_capa': 'denue_escuelas_superior','tabla':'denue.escuelas_media_superior', "nombre": "Escuelas media superior", 'color': '234 10 122'},
+    {'id_capa': 'denue_escuelas_superior','tabla':'denue.escuelas_superior', "nombre": "Escuelas de nivel superior", 'color': '234 10 122'},
 ]
 
 layers = []

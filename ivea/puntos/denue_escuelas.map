@@ -52,9 +52,30 @@ LAYER
   TYPE POINT
   CONNECTIONTYPE POSTGIS
   CONNECTION "host=mxsig-db port=5432 dbname=mdm6data user=postgres password=P0stgr3s"
-  DATA "the_geom FROM (SELECT gid, the_geom FROM denue.escuelas_superior_pseudomercator) AS t1 USING UNIQUE gid USING SRID=900913"
+  DATA "the_geom FROM (SELECT gid, the_geom FROM denue.escuelas_media_superior) AS t1 USING UNIQUE gid USING SRID=900913"
   METADATA
-    "wms_title" "Escuelas superior"
+    "wms_title" "Escuelas media superior"
+    "wms_enable_request" "*"
+  END
+  CLASS
+    STYLE
+      SYMBOL "circulor"
+      SIZE 9
+      OUTLINECOLOR 0 0 0
+      COLOR 234 10 122
+    END
+  END
+END
+
+LAYER
+  NAME "c_denue_escuelas_superior"
+  STATUS ON
+  TYPE POINT
+  CONNECTIONTYPE POSTGIS
+  CONNECTION "host=mxsig-db port=5432 dbname=mdm6data user=postgres password=P0stgr3s"
+  DATA "the_geom FROM (SELECT gid, the_geom FROM denue.escuelas_superior) AS t1 USING UNIQUE gid USING SRID=900913"
+  METADATA
+    "wms_title" "Escuelas de nivel superior"
     "wms_enable_request" "*"
   END
   CLASS
